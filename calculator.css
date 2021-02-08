@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: darkgray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 30px;
+}
+.flex25 {
+  flex-basis: 25%;
+}
+.outerBorder {
+  padding-left: calc(50% - 125px);
+  width: 250px;
+  /* height: 100vh; */
+}
+#window-o {
+  min-height: 50px;
+  border: 5px gray solid;
+}
+
+.circle {
+  margin-top: 0em;
+  height: 0.75em;
+  width: 0.75em;
+  border-radius: 100%;
+  border: 2px solid black;
+  margin-left: calc(50% - 0.375em - 2px);
+}
+
+.line {
+  margin-top: -0.25em;
+  width: 0.2em;
+  height: 0.5em;
+  /* border: 2px solid black; */
+  background-color: black;
+  margin-left: calc(100% - 0.35em);
+}
+
+.bg-white {
+  background-color: lightgray;
+  width: 0.5em;
+  margin-left: calc(100% - 0.625em);
+}
+.bg-lGrey {
+  background-color: lightgray;
+}
